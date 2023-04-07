@@ -10,6 +10,7 @@ $sql = $conexion->query("select * from contacto");
         <td >Folio</td>
         <td>Nombre completo</td>
         <td>Telefono</td>
+        <td>Correo</td>
     </tr>
     <?php
     $no = 1;
@@ -21,6 +22,7 @@ $sql = $conexion->query("select * from contacto");
         <td>{$row['idcontacto']}</td>
         <td>{$row['nombre_completo']}</td>
         <td>{$row['telefono']}</td>
+        <td>{$row['correo']}</td>
         </tr>
         ";
         +
