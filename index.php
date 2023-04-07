@@ -29,11 +29,11 @@ and open the template in the editor.
                             <input type="email" class="form-control" name="Usuario">
                         </div>
                         <div class="mb-4">
-                            <label for="password" class="form-label"> Nombre de Usuario</label>
+                            <label for="password" class="form-label">Contraseña</label>
                             <input type="password" class="form-control" name="Usuario">
                         </div>
                         <div class="d-grid">
-                            <a href="Vistas/consultas.php" class="btn btn-primary">Iniciar Sesion</a>
+                            <a href="Vistas/consultas.php" class="btn btn-primary">Iniciar</a>
                         </div>
                         <br>
                     </form>
