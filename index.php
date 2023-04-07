@@ -8,11 +8,11 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title>Contacto</title>
-        <link rel="shortcut icon" href="../img/icoSIITEB.ico">
+        <link rel="shortcut icon" href="Imagenes/icoSIITEB.ico">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     </head>
     <body>
-        <h1>Gus Mensillo</h1>
+        <h1>Gus y Angel Mensillo</h1>
         <div class="container">
             <br>
             <form class="row" style="margin-left: 400px ;" action="#" method="POST">
