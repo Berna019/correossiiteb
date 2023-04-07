@@ -13,44 +13,33 @@ and open the template in the editor.
         <link rel="stylesheet" href="styles/styleEnviar.css">
     </head>
     <body>
-        <section>
-            <div class="row g-0">
-                <div class="col-lg-4 d-none d-lg-block">
+        <div class="container w-100 mt-5 shadow rounded">
+            <div class="row align-items-stretch">
+                <div class="col bg d-none d-lg-block col-md-5 col-lg-5 col-xl-5 rounded">
 
                 </div>
-                <div class="col-lg-4 g-0 flex-column align-items-end min-vh-100">
-                    <div class="px-lg-5 pt-lg-4 pb-lg-3 p-4 w-100 mb-auto">
-                        <form class="" action="crud/enviar.php" method="POST">
-                            <div class="mb-4">
-                                <label for="form-label font-weight-bold">Nombre Completo</label>
-                                <input type="text" class="form-control" name="Nombre">
-                            </div>
-                            <div class="mb-4">
-                                <label class="form-label">Telefóno</label>
-                                <input type="text" class="form-control" name="Telefono">
-                            </div>
-                            <div class="mb-4">
-                                <label class="">Correo</label>
-                                <input type="text" class="form-control" name="Correo">
-                            </div>
-                            <div class="mb-4">
-                                <label class="">Asunto</label>
-                                <input type="text" class="form-control" name="Asunto">
-                            </div>
-                            <div class="mb-4">
-                                <label class="">Mensaje</label>
-                                <input type="text" class="form-control" name="Mensaje">
-                            </div>
-                            <div class="vstack gap-2 d-grid">
-                                <button type="submit" class="btn btn-dark col">Enviar</button>
-                                <a href="#" class="btn btn-outline-dark">Cancelar</a>
-                                <p><a class="link-opacity-50 col-3 d-grid mx-auto" href="Vistas/consultas.php">Ir a consultas</a></p>
-                            </div>
-                        </form>
-                    </div>   
+                <div class="col p-5">
+                    <div class="text-center">
+                        <img class="img img-center" src="Imagenes/SIITEB NEGRO.png" width="100" >
+                    </div>
+                    <h2 class="fw-bold text-center py-5">Bienvenido Administrador</h2>
+                    <form>
+                        <div class="mb-4">
+                            <label for="email" class="form-label"> Nombre de Usuario</label>
+                            <input type="email" class="form-control" name="Usuario">
+                        </div>
+                        <div class="mb-4">
+                            <label for="password" class="form-label"> Nombre de Usuario</label>
+                            <input type="password" class="form-control" name="Usuario">
+                        </div>
+                        <div class="d-grid">
+                            <a href="Vistas/consultas.php" class="btn btn-primary">Iniciar Sesion</a>
+                        </div>
+                        <br>
+                    </form>
                 </div>
             </div>
-        </section>
+        </div>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     </body>
 </html>

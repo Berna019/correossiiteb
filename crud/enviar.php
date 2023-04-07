@@ -13,7 +13,7 @@ $sql = "insert into contacto(nombre_completo,telefono,correo,asunto,mensaje) val
 $resultado = mysqli_query($conexion, $sql);
 
 if ($resultado) {
-    header("location:../index.php");
+    header("location:../Vistas/contacto.php");
 } else {
     echo "Dato no insertados";
 }

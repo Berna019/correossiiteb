@@ -1,8 +1,4 @@
-body{
-    font-weight: 300;
-}
-
-.form-control, .btn{
-    min-height: 3rem;
-    line-height: initial;
+.bg{
+    background-image: url(../Imagenes/img-login.jpeg);
+    background-position: center center;
 }
