@@ -14,7 +14,7 @@ and open the template in the editor.
     <body>
         <div class="container">
             <br>
-            <form class="row" style="margin-left: 400px ;" action="#" method="POST">
+            <form class="row" style="margin-left: 400px ;" action="crud/enviar.php" method="POST">
                 <fieldset>
                     <div class="col-6">
                         <label for="">Nombre Completo</label>
@@ -23,17 +23,21 @@ and open the template in the editor.
                     <br>
                     <div class="col-6">
                         <label class="">Telefóno</label>
-                        <input type="text" class="form-control" name="apellidoPaterno">
+                        <input type="text" class="form-control" name="Telefono">
+                    </div>
+                    <br>
+                    <div class="col-6">
+                        <label class="">Correo</label>
+                        <input type="text" class="form-control" name="Correo">
                     </div>
                     <br>
                     <div class="col-6">
                         <label class="">Asunto</label>
-                        <input type="text" class="form-control" name="apellidoMaterno">
+                        <input type="text" class="form-control" name="Asunto">
                     </div>
-                    <br>
                     <div class="col-6">
                         <label class="">Mensaje</label>
-                        <input type="text" class="form-control" name="Telefono">
+                        <input type="text" class="form-control" name="Mensaje">
                     </div>
                     <br>
                     <div class="vstack gap-2 col-6">
