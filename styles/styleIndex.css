@@ -1,0 +1,10 @@
+.resolucion{
+    width: 99%;
+    text-align: center;
+}
+
+row{
+    margin-top: 3em;
+    display: grid;
+    gap: 2.5em;
+}
