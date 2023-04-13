@@ -53,7 +53,8 @@ $sql = $conexion->query("select * from contacto");
                 </div>
             </div>
         </nav>
-        <div class="container table-responsive mt-6">
+        <br>
+        <div class="container table-responsive mt-5">
             <table class="table table-sm align-middle">
                 <thead>
                     <tr>
