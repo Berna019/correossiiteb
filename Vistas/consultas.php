@@ -67,8 +67,8 @@ if (isset($_POST['buscar'])) {
                 </div>
             </div>
         </nav>
-        <div class="container table-responsive mt-2">
-            <table class="table table-sm align-middle">
+        <div class="container table-responsive my-5">
+            <table class="table table-sm align-middle my-5">
                 <thead>
                     <tr>
                         <th scope="col">Folio</th>

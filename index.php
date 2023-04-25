@@ -19,13 +19,13 @@ and open the template in the editor.
                 <div class="col bg d-none d-lg-block rounded">
 
                 </div>
-                <div class="col p-5">
+                <div class="col p-6">
                     <div class="text-center">
                         <img class="img img-center" src="Imagenes/SIITEB NEGRO.png" width="100" >
                     </div>
                     <h2 class="fw-bold text-center py-5">Bienvenido Administrador</h2>
                     <form>
-                        <div class="mb-4">
+                        <div class="mb-3">
                             <label for="email" class="form-label"> Nombre de Usuario</label>
                             <input type="email" class="form-control" name="Usuario">
                         </div>
