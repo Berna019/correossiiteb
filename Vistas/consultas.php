@@ -25,16 +25,19 @@ if (isset($_POST['buscar'])) {
     </head>
 
     <body>
-        <nav class="container navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+        <nav class="container navbar navbar-expand-lg bg-body-tertiary fixed-top" data-bs-theme="dark">
             <div class="container-fluid">
-                <a class="navbar-brand" href="#">Menu</a>
-                <form class="d-flex" action="consultas.php" method="post">
-                    <input class="form-control me-2" name="nombres" placeholder="Search">
+                <a class="navbar-brand" href="#">
+                    <img src="../Imagenes/SIITEB NEGRO.png" alt="logo" width="40px">
+                </a>
+                <a class="navbar-brand" href="#">Consultas</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon ml-6"></span>
+                </button>
+                <form class="d-flex mx-auto" action="consultas.php" method="post">
+                    <input class="form-control mx-auto me-2" name="nombres" placeholder="Search">
                     <input class="btn btn-outline-success" name="buscar" type="submit" value="Buscar">
                 </form>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
                 <div class="collapse navbar-collapse" id="navbarScroll">
                     <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
                         <li class="nav-item">
@@ -75,12 +78,12 @@ if (isset($_POST['buscar'])) {
                         <th scope="col">Asunto</th>
                     </tr>
                 </thead>
-<?php
-$no = 1;
-while ($row = $sql->fetch_assoc()) {
-    echo
-    //inicia html
-    "
+                <?php
+                $no = 1;
+                while ($row = $sql->fetch_assoc()) {
+                    echo
+                    //inicia html
+                    "
         <tr>
         <td>{$row['idcontacto']}</td>
         <td>{$row['nombre_completo']}</td>
@@ -89,11 +92,11 @@ while ($row = $sql->fetch_assoc()) {
         <td>{$row['asunto']}</td>
         </tr>
         ";
-    +
-            $no++;
-    //termina html
-}
-?>
+                    +
+                            $no++;
+                    //termina html
+                }
+                ?>
             </table>
         </div>
         <div class="container-fluid text-center mt-5">
